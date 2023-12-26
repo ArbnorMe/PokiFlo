@@ -20,5 +20,25 @@ namespace PokiFlo
         {
             InitializeComponent();
         }
+
+        private void Btn_Close_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Btn_Minimize_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void Button_Main_Mainmenue_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Hauptmenue();
+        }
+
+        private void Button_Main_Settings_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Einstellungen();
+        }
     }
 }

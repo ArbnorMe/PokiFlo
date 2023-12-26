@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace PokiFlo
 {
     /// <summary>
-    /// Interaktionslogik für Hauptmenue.xaml
+    /// Interaktionslogik für Einstellungen.xaml
     /// </summary>
-    public partial class Hauptmenue : Page
+    public partial class Einstellungen : Page
     {
-        public Hauptmenue()
+        public Einstellungen()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
