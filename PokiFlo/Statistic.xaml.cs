@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace PokiFlo
 {
     /// <summary>
-    /// Interaktionslogik für Einstellungen.xaml
+    /// Interaktionslogik für Statistic.xaml
     /// </summary>
-    public partial class Einstellungen : Page
+    public partial class Statistic : Page
     {
-        public Einstellungen()
+        public Statistic()
         {
             InitializeComponent();
         }

@@ -36,9 +36,24 @@ namespace PokiFlo
             Main.Content = new Hauptmenue();
         }
 
+        private void Button_Main_Fightarena_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Fightarena();
+        }
+
+        private void Button_Main_Inventory_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Inventory();
+        }
+
+        private void Button_Main_Statistic_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Statistic();
+        }
+
         private void Button_Main_Settings_Click(object sender, RoutedEventArgs e)
         {
-            Main.Content = new Einstellungen();
+            Main.Content = new Settings();
         }
     }
 }

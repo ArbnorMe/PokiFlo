@@ -34,9 +34,9 @@
 
         <!--Bedienmenü-->
         <Button Name="Button_Main_Mainmenue" Content="Hauptmenü" Grid.Column="0" Grid.Row="0" Width="80" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Main_Mainmenue_Click"/>
-        <Button Name="Button_Main_Fightarena" Content="Kampfarena" Grid.Column="1" Grid.Row="0" Width="80" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Button Name="Button_Main_Inventory" Content="Inventar" Grid.Column="2" Grid.Row="0" Width="80" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Button Name="Button_Main_Statistic" Content="Statistiken" Grid.Column="3" Grid.Row="0" Width="80" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button Name="Button_Main_Fightarena" Content="Kampfarena" Grid.Column="1" Grid.Row="0" Width="80" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Main_Fightarena_Click"/>
+        <Button Name="Button_Main_Inventory" Content="Inventar" Grid.Column="2" Grid.Row="0" Width="80" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Main_Inventory_Click"/>
+        <Button Name="Button_Main_Statistic" Content="Statistiken" Grid.Column="3" Grid.Row="0" Width="80" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Main_Statistic_Click"/>
         <Button Name="Button_Main_Settings" Content="Einstellungen" Grid.Column="4" Grid.Row="0" Width="80" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Main_Settings_Click"/>
 
         <!--Fenstermenü-->
