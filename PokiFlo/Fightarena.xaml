@@ -10,6 +10,12 @@
 
     <Grid>
         <Label Content="Fightarena" HorizontalAlignment="Center" Margin="0,207,0,0" VerticalAlignment="Top"/>
-
+        <Image
+                    Source="Arena2.jpg"
+                    RenderTransformOrigin="0.318,0.455" StretchDirection="DownOnly" Margin="-77,0,-73,0">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
     </Grid>
 </Page>
